@@ -75,5 +75,5 @@ tasks.register("myDiffChangelog") {
 	}
 }
 
-//tasks["liquibaseDiff"].dependsOn("compileJava")
+tasks["liquibaseDiff"].dependsOn("compileJava")
 tasks["liquibaseDiffChangelog"].dependsOn("myDiffChangelog")
