@@ -6,7 +6,7 @@ spring:
     password: secret
   liquibase:
   #  enabled: true
-    change-log: classpath:db/changelog/changelog-master.yml
+    change-log: db/changelog/changelog-master.yml
   jpa:
     hibernate:
       ddl-auto: validate
