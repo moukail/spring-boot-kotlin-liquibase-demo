@@ -2,16 +2,19 @@
 ### Gradle
 #### Diff
 ```bash
+./gradlew clean
 ./gradlew liquibaseDiff
 ```
 
 #### DiffChangeLog
 ```bash
+./gradlew clean
 ./gradlew liquibaseDiffChangelog
 ```
 
 #### Update
 ```bash
+./gradlew clean
 ./gradlew liquibaseUpdate
 ```
 
