@@ -4,6 +4,9 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: myuser
     password: secret
+  liquibase:
+  #  enabled: true
+    change-log: classpath:db/changelog/changelog-master.yml
   jpa:
     hibernate:
       ddl-auto: validate
@@ -16,4 +19,4 @@ spring:
         globally_quoted_identifiers_skip_column_definitions: true
   docker:
     compose:
-      file: docker-compose.yaml
+      file: docker-compose.yml
